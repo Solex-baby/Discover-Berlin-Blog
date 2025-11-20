@@ -1,0 +1,102 @@
+.section1 h3 {
+    color:  #3a0ca3;
+}
+
+img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.section1 {
+    border: 0;
+}
+
+main {
+    margin-bottom: 2em;
+}
+
+/*
+    color: rgb(209, 209, 209);
+
+    #f72585;
+
+    #4361ee;
+*/
+
+/*-----------------------------------------------follow---------------------------------------*/
+
+.follow {
+    width: 100%;
+    background: #7209b7;
+    margin:0;
+    padding: 3em 0;
+}
+
+.box4 {
+    width: 90%;
+    color: rgb(223, 223, 223);
+    text-align: center;
+}
+
+input {
+    padding: 0.8em 2.4em;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.8em 1.6em;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(223, 223, 223);
+    background: #4361ee;
+    border: 2px solid rgb(223, 223, 223);
+    font-family: "Funnel Display", sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3a0ca3;
+}
+
+.guide p {
+    color: rgb(223, 223, 223);
+    margin-bottom: 2em;
+}
+
+.follow h3 {
+    color: rgb(223, 223, 223);
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+.guide {
+    margin-bottom: 4em;
+
+}
+
+
+/*----------------------------------------------------Web----------------------------------*/
+
+@media all and (min-width:769px) {
+
+.box4 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    margin-right: 1em;
+}
+
+/*
+.guide {
+        width: 70%;
+}
+*/
+
+}
