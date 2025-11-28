@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+
+.intro h1 {
+    color: rgba(255,255,255,0.8);
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+h1 + p {
+    color:  rgba(255,255,255,0.8);
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 + p {
+    color: #f72585;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+strong {
+    color: #f72585; 
+    font-weight: 700;
+}
+
+form input {
+    width: 80%;
+    padding: 0.8em 4em;
+    margin-bottom: 1em;
+    text-align: center;
+    transform: scale(1);
+    transition: 500ms;
+}
+
+form input:focus {
+    transform: scale(1.1);
+}
+
+.lastinput {
+    margin-bottom: 0;
+}
+
+.passwordtool {
+    display: flex;  
+    flex-direction: column;  
+    gap:0.5em;
+    margin: 2em;
+}
+.passwordtool p {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    margin: 0;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+form a {
+    color: rgb(47, 47, 47);
+    padding: 0;
+    text-decoration: underline;
+}
+
+.fine-print {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+form button {
+    width: 80%;
+    padding: 0.8em 4em;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------Layout-------------------------*/
+
+.hero {
+    max-width: 980px;
+    margin: 3em auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+    margin-bottom: 2em;
+}
+
+.intro *, .main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+ 
+.main {
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    padding: 2em 1em;
+    background-image: url(hero3.jpg), linear-gradient(to bottom, rgb(54, 54, 54), rgb(9, 86, 168), transparent 75%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+/*-------------------------------------------Website-------------------------*/
+
+@media all and (min-width:769px) {
+
+.intro h1 {
+    font-size: 3.5rem;
+}
+
+.hero {
+    display: flex;
+}
+
+.intro, .main {
+    width: 50%;
+    min-height: 70vh;
+}
+
+.intro {
+    margin-bottom: 0;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 0;
+}
+
+
+}
