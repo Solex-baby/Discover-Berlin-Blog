@@ -52,7 +52,7 @@ form input:focus {
     display: flex;  
     flex-direction: column;  
     gap:0.5em;
-    margin: 2em 0;
+    margin: 2em auto;
 }
 .passwordtool p {
     margin: 0;
