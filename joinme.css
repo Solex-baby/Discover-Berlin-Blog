@@ -65,14 +65,10 @@ input[type="checkbox"] {
 }
 
 .checkbox {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
     gap: 0.5em;
-    width: auto; 
-    margin: 0 auto;  
-    white-space: nowrap;  
+    white-space: nowrap;
 }
 
 form a {
