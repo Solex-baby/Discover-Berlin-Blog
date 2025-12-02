@@ -75,6 +75,11 @@ input[type="checkbox"] {
     white-space: nowrap;  
 }
 
+.checkbox p {
+    width: max-content;
+}
+
+
 form a {
     color: rgb(47, 47, 47);
     padding: 0;
