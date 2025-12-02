@@ -67,9 +67,10 @@ input[type="checkbox"] {
 .checkbox {
     display: flex;
     align-items: center;
+    justify-content:center;
     gap: 0.5em;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 3em;
 }
 
 .checkbox p {
